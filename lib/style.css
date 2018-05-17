@@ -1,0 +1,236 @@
+
+
+	body {
+		font-size:75%; /* Base font size: 14px */
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		
+		/*background gradient*/
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(-45deg, #ffffff 0%, #d6f0ff 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(100%,#d6f0ff)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(-45deg, #ffffff 0%,#d6f0ff 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(-45deg, #ffffff 0%,#d6f0ff 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(-45deg, #ffffff 0%,#d6f0ff 100%); /* IE10+ */
+		background: linear-gradient(135deg, #ffffff 0%,#d6f0ff 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6f0ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		height: 100%;
+	
+	}
+
+ 
+hgroup
+{
+	text-align: center
+}
+
+input[type=text], textarea, select, input[type=password] 
+{ 
+    padding: 3px; 
+    border: solid 1px #000000; 
+    outline: 0; 
+    background: #ffffff; 
+}
+
+input[type=text]:hover, textarea:hover, select:hover
+input[type=text]:focus, textarea:focus, select:focus 
+{ 
+    
+    background: #E0E0E0; 
+}
+
+#formLayout
+{
+	padding-top: 20px;
+	width: 720px;
+	margin: 0 auto;
+}
+
+#formLayout textarea
+{
+	width: 500px;
+	height: 300px;
+}
+
+#formLayout fieldset
+{
+	/*width: 60%;*/
+	border: 1px dotted #585858;
+	padding: 1em;
+}
+
+
+#formLayout label, #formLayout input[type=text], select, input[type=password]
+{
+        display: block;        
+        float: left;
+        margin-bottom: 10px;
+}
+ 
+#formLayout label
+{
+        text-align: right;
+        padding-right: 20px;
+		padding-top: 5px;
+		width: 100px;
+}
+	
+#formLayout input[type=text], select, input[type=password]
+{
+        text-align: left;
+		width: 250px;
+}
+	
+#fizz
+{
+	padding: 1em;
+}
+
+#chatarea
+{
+	padding: 1em;
+	height: 400px;
+	overflow: auto;
+}
+
+#formComment
+{
+	padding-top: 20px;
+	width: 720px;
+	margin: 0 auto;
+}
+
+#formComment textarea
+{
+	width: 500px;
+	height: 100px;
+}
+
+#formComment fieldset
+{
+	border: 1px dashed #585858;
+	padding: 1em;
+}
+
+#formComment legend
+{
+	border: 1px dashed #585858;
+}
+
+
+#formComment label, #formLayout input[type=text], select
+{
+        display: block;        
+        float: left;
+        margin-bottom: 10px;
+}
+ 
+#formComment label
+{
+        text-align: right;
+        padding-right: 20px;
+		padding-top: 5px;
+		width: 100px;
+}
+	
+#formComment input[type=text], select
+{
+        text-align: left;
+		width: 250px;
+}
+
+#submitcomment
+{
+	background: #EBF0BD;
+}
+
+.uName
+{
+	padding: 1em;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	
+}
+
+.comm
+{
+	padding: 1em;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+}
+
+.comm:last-child
+{
+	padding: 1em;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.chat
+{
+	padding-left: 5px;
+	height: 30px;	
+	margin: 0 auto;	
+	width: 90%;
+	float: left;
+	line-height: 30px;
+}
+
+.chat img
+{
+	vertical-align: middle;
+	 display: inline-block;
+}
+
+.chat:nth-child(odd)
+{
+	background: #ffffff;
+}
+.chat:nth-child(even)
+{
+	background: #cccccc;
+}
+
+#formComment
+{
+	padding-top: 20px;
+	width: 720px;
+	margin: 0 auto;
+}
+
+#formChat label, #formChat input[type=text], select
+{
+       /* display: block;    */    
+        float: left;
+        margin-bottom: 10px;
+}
+ 
+#formChat label
+{
+       /* text-align: right;*/
+        padding-left: 7px;
+		padding-top: 5px;
+		padding-right: 7px;
+		/*width: 70px;*/
+}
+	
+#username
+{
+        text-align: left;
+		width: 100px;
+}
+#comment
+{
+        text-align: left;
+		width: 500px;
+}
+#submitchat
+{
+	margin-left: 7px;
+}
